@@ -78,8 +78,7 @@ public enum ClientEventManager implements Manager {
     @SubscribeEvent
     public void onRenderScreen(RenderGameOverlayEvent.Text event) {
         GameSense.EVENT_BUS.post(event);
-    }
-
+    
 
     }
 
